@@ -9,6 +9,26 @@ Assumptions
 5.Json input and output 
 6.No Security Implications 
 
+Included two java classes to test service master/src/main/java/com/checkoutservice/client
+
+Technologies used : java, jersey,json.
+
+Requirements for Project:
+Eclipse 
+jdk 1.8
+Tomcat 7
+
+Instructions to Run the Project:
+
+Import Project using Eclipse
+Select Maven type of Project
+Select existing Maven Project and browse and open the downloaded folder
+Run as Maven build options clean install
+Runtime Environment - tomcat and browse and select the tomcat directory;
+Run the application on server (tomcat 7)
+You are good to go!!!
+Use the Client java classes to test GET and POST calls to the service by running them as java application in eclipse. 
+
 API Documentaion:
 
 1) This data endpoint is used to make payments and complete order using card credentials and other information mentioned below
